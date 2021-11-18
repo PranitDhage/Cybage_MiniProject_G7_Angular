@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Card</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../CSS/MusicLibrary.css">
+
+  <!-- Custom style for footer -->
+  <link href="../CSS/sticky-footer-navbar.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../JavaScript/MusicLibrary.js"></script>
+</head>
+<body> 
+
+<!-- 
+  Main Tasklist
+  TODO: Background image
+  TODO: Shadows to elements
+  TODO: consistent font
+  TODO: 1. Auto search (No need to click) 2. Search bar display on clicking magnify icon
+  DONE: Basic search functionality
+  DONE: Neatly and responsively display each selected song
+ -->
+
+
+
+  <!-- 
+    ------------------
+    Fixed Navbar Component
+    ------------------
+    TODO: Needs to be able to display current user
+    DONE: Needs to be able to search for a song
+  -->
+  <header>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
+
+      <!-- PlanetM logo that takes to HomePage -->
+      <a class="navbar-brand" href="../HTML/HomePage.html">
+        <img src="../Public/images/planet.png" height="50px" width="50px">
+        PlanetM
+      </a>
+
+      <!-- toggler button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- contents in following div collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/UserProfile.html">User Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/selectLanguage.html">Languages<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Library<span class="sr-only">(current)</span></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="../HTML/loginForm.html">Login</a>
+          </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="../HTML/AudioPanel.html">Player</a>
+          </li> -->
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Song Name" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- 
+    Music Library (Songs based on language selection)
+    TODO: Implement logic for filtering songs based on language
+    TODO: Implement routing so that each play button goes appropriate song's audio player
+    TODO: Random background image for each song
+    TODO: Backgroud image selection based on each song
+    DONE: Display all songs from JSON
+  -->
+
+
+  <!-- 
+    ------------------
+    Song display list component
+    ------------------ 
+  -->
+  <div class="container  song-display-list">
+    <!-- Do not erase this code block -->
+    <!-- Following is the code that is added using js (left here for quick testing) -->
+    <!-- <div class="card bg-warning"> 
+        <div class="row no-gutters">
+          <div class="col">
+            <p class="card-text text-center mt-1"> 
+              data
+            </p>
+          </div>  
+          <div class="col-2">
+            <a href= 
+            "#" + //have to give link acc to searched song
+            class="btn btn-primary w-100"> 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16"><path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/></svg></a>
+          </div>  
+        </div>
+    </div> -->
+    
+  </div>
+
+
+  <!-- 
+    ------------------
+    Footer component
+    ------------------ 
+  -->
+  <!-- this footer has a special css file -->
+  <footer class="footer">
+    <div class="container">
+      <span>
+        © 2021 Copyright:
+        <a class="text-reset font-weight-bold" href="../HTML/HomePage.html">PlanetM.com</a>
+      </span>
+    </div>
+  </footer>
+
+</body>
+</html>

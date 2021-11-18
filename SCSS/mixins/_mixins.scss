@@ -1,0 +1,34 @@
+@mixin allElements() {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin width_height($w, $h) {
+  width: $w;
+  height: $h;
+}
+
+@mixin divTransition {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07), 0 2px 4px rgba(0, 0, 0, 0.07),
+    0 4px 8px rgba(0, 0, 0, 0.07), 0 8px 16px rgba(0, 0, 0, 0.07),
+    0 16px 32px rgba(0, 0, 0, 0.07), 0 32px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 4rem;
+  position: relative;
+  margin-top: 0.5rem;
+  transition: width 1s linear;
+  -moz-transition: width 1s linear;
+  -o-transition: width 1s linear;
+  -webkit-transition: width 1s linear;
+}
+
+@mixin cursor {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+}

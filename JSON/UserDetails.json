@@ -1,0 +1,40 @@
+{
+  "Users": [
+    {
+      "userId": 1,
+      "userName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "dob": "",
+      "gender": "",
+      "image": "",
+      "userPlaylist": [
+        "songId",
+        "songId",
+        "songId",
+        "songId",
+        "songId",
+        "songId"
+      ]
+    },
+    {
+      "userId": 2,
+      "userName": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "dob": "",
+      "gender": "",
+      "image": "",
+      "userPlaylist": [
+        "songId",
+        "songId",
+        "songId",
+        "songId",
+        "songId",
+        "songId"
+      ]
+    }
+  ]
+}

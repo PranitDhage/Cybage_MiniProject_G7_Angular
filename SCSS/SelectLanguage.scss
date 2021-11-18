@@ -1,0 +1,25 @@
+.card {
+  border: 2px;
+  border-style: solid;
+  border-color: black;
+  width: 400px;
+  height: 300px;
+  opacity: 0.9;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  margin-top: -70px;
+}
+
+body {
+  background-image: url("../Public/other/images/language.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.selectpicker {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,22 @@
+{
+  "name": "g7_miniproject",
+  "version": "1.0.0",
+  "description": "Music Player app, FET Mini Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CDAC-FET-July21/MiniProject_G7_Angular.git"
+  },
+  "author": "Nikhil Bharatlal Bisen, Nirajkumar Sureshrao Ablankar, Nitin Surendra Wandile, Onkar Raju. Hongekar, Prafull Dhanraj Shindekar, Pranit Ravikant Dhage, Pranita Suresh Salunke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CDAC-FET-July21/MiniProject_G7_Angular/issues"
+  },
+  "homepage": "https://github.com/CDAC-FET-July21/MiniProject_G7_Angular#readme",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}

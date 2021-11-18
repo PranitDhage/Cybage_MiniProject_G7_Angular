@@ -1,0 +1,302 @@
+{
+  "songs": [
+    {
+      "id": "1",
+      "songName": "Faded 1",
+      "language": "English",
+      "artist": "Alan Walker",
+      "album": "Different World",
+      "categories": "Pop",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "2",
+      "songName": "Cheap Thrills 1",
+      "language": "Hindi",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "3",
+      "songName": "Cheap Thrills 2",
+      "language": "Marathi",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "4",
+      "songName": "Faded 2",
+      "language": "Hindi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Pop",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "5",
+      "songName": "Cheap Thrills 3",
+      "language": "English",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "pop",
+      "duration": "3.44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "6",
+      "songName": "Faded 3",
+      "language": "Hindi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Jazz",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "7",
+      "songName": "Cheap Thrills 4",
+      "language": "English",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "8",
+      "songName": "Faded 4",
+      "language": "Marathi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "9",
+      "songName": "Faded 5",
+      "language": "Marathi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "10",
+      "songName": "Cheap Thrills 5",
+      "language": "English",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "11",
+      "songName": "Faded 6",
+      "language": "English",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "12",
+      "songName": "Faded 7",
+      "language": "Marathi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "13",
+      "songName": "Cheap Thrills 6",
+      "language": "English",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "14",
+      "songName": "Cheap Thrills 7",
+      "language": "Hindi",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "15",
+      "songName": "Faded 8",
+      "language": "Marathi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "16",
+      "songName": "Faded 9",
+      "language": "English",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "17",
+      "songName": "Faded 10",
+      "language": "Hindi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:24",
+      "path": "/public/songs/soundtracks/Faded_ncs_release.mp3",
+      "image": "/public/songs/images/faded.jpg"
+    },
+    {
+      "id": "18",
+      "songName": "Cheap Thrills 8",
+      "language": "Marathi",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    },
+    {
+      "id": "19",
+      "songName": "Cheap Thrills 9",
+      "language": "Marathi",
+      "artist": "Sia, Ft.Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "3:44",
+      "path": "/public/songs/soundtracks/Cheap_Thrills.mp3",
+      "image": "/public/songs/images/cheap_thrills.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "userName": "Alex Mercer",
+      "email": "alex@gmail.com",
+      "phone": "7854984257",
+      "password": "alex@21",
+      "image": "/public/users/images/avatar1.png",
+      "userPlaylist": [
+        "1",
+        "3",
+        "5",
+        "7",
+        "10",
+        "12",
+        "19"
+      ]
+    },
+    {
+      "id": "2",
+      "userName": "Steve Smith",
+      "email": "steve@gmail.com",
+      "phone": "1654544541",
+      "password": "steve@21",
+      "image": "/public/users/images/avatar2.jpg",
+      "userPlaylist": [
+        "1",
+        "2",
+        "4",
+        "12"
+      ]
+    },
+    {
+      "id": "3",
+      "userName": "Shane Watson",
+      "email": "shane@gmail.com",
+      "phone": "1654544541",
+      "password": "shane@21",
+      "image": "/public/users/images/avatar3.png",
+      "userPlaylist": [
+        "1",
+        "2",
+        "19",
+        "11",
+        "8",
+        "7",
+        "10"
+      ]
+    },
+    {
+      "id": "4",
+      "userName": "Saina Nehwal",
+      "email": "saina@gmail.com",
+      "phone": "9845756210",
+      "password": "saina@21",
+      "image": "/public/users/images/avatar4.png",
+      "userPlaylist": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "15",
+        "11",
+        "13"
+      ]
+    }
+  ],
+  "credentials": [
+    {
+      "id": "1",
+      "email": "alex@gmail.com",
+      "password": "alex@21"
+    },
+    {
+      "id": "2",
+      "email": "steve@gmail.com",
+      "password": "steve@21"
+    },
+    {
+      "id": "3",
+      "email": "shane@gmail.com",
+      "password": "shane@21"
+    },
+    {
+      "id": "4",
+      "email": "saina@gmail.com",
+      "password": "saina@21"
+    }
+  ]
+}

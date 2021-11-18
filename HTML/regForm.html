@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet"  type="text/css" href="/CSS/regForm.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <link href="../CSS/sticky-footer-navbar.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-link active" href="./HomePage.html">
+        <img
+          src="../public/images/planet.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-text-top"
+        />
+        PlanetM
+      </a>
+      </div>
+      </nav>
+    <section class="container-fluid bg">
+        <section class="row justify-content-center">
+            <section class="col-12 col-sm-6 col-md-3">
+              <form class="form-container" id="registration" onsubmit="signUp(event);" >
+                <h3 class="row justify-content-center">Registration </h3>
+                <div class="form-group">
+                    <label for="username">Name</label>
+                    <input type="text" class="form-control" id="name" name="username" placeholder="username">
+                    <h6 id="userCheck"> </h6>
+                  </div>
+                  
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  <h6 id="emailCheck"> </h6>
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input type="tel" class="form-control" id="number" name="number" placeholder="enter number">
+                    <h6 id="numberCheck"> </h6>
+                  </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                  <h6 id="passCheck"> </h6>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="password1" name="confirm" placeholder="Confirm Password">
+                  <h6 id="conpassCheck"></h6>
+                </div>
+               
+               
+                <!-- <button type="submit" class="btn btn-primary btn-block" id="submit" formaction="loginForm.html">Submit</button> -->
+                <button type="submit" class="btn btn-primary btn-block" id="submit">Submit</button>
+
+
+            </div>
+            <p class="signup">Already exist?<a href="/html/loginForm.html">  Sign In </a></p>
+           </div>
+              </form>
+            </section>
+        </section>
+    </section>
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script> -->
+ <script src="/JavaScript/validation.js"></script>
+    <script src="/JavaScript/register.js"></script>
+    <footer class="footer">
+      <div class="container">
+        <span>
+          © 2021 Copyright:
+          <a class="text-reset font-weight-bold" href="../HTML/HomePage.html">PlanetM.com</a>
+        </span>
+      </div>
+    </footer>
+</body>
+
+</html>

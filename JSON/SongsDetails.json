@@ -1,0 +1,92 @@
+{
+  "songs": [
+    {
+      "songId": "1",
+      "songName": "Fade ncs release",
+      "language": "English",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Pop",
+      "duration": "3:32",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "2",
+      "songName": "Cheap Thrills",
+      "language": "Hindi",
+      "artist": "Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "3",
+      "songName": "Cheap Thrills",
+      "language": "Marathi",
+      "artist": "Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "4",
+      "songName": "Fade ncs release",
+      "language": "Hindi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Pop",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "5",
+      "songName": "Cheap Thrills",
+      "language": "English",
+      "artist": "Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "pop",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "6",
+      "songName": "Fade ncs release",
+      "language": "Hindi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Jazz",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "7",
+      "songName": "Cheap Thrills",
+      "language": "English",
+      "artist": "Sean Paul",
+      "album": "Cheap Thrills",
+      "categories": "Jazz",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    },
+    {
+      "songId": "8",
+      "songName": "Fade ncs release",
+      "language": "Marathi",
+      "artist": "Alan Walker",
+      "album": "Fade",
+      "categories": "Rock",
+      "duration": "4:12",
+      "path": "#",
+      "image": "#"
+    }
+  ]
+}

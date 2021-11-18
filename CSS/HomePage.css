@@ -1,0 +1,82 @@
+#footer-placeholder {
+  background-color: gray;
+}
+
+body {
+  background-image: url(../public/images/back.jpg);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about {
+  color: blanchedalmond;
+  border: white 2px solid;
+  margin-top: 40px;
+}
+
+#cardbody:hover {
+  border: black 2px solid;
+}
+
+h5 {
+  color: red;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
+.data {
+  color: white;
+}
+
+/* 280px and above */
+@media screen and (min-width: 280px) {
+  #card, #list, h5 {
+    font-size: 5px;
+  }
+}
+
+/* 360px and above */
+@media screen and (min-width: 360px) {
+  #card, #list, h5 {
+    font-size: 10px;
+  }
+}
+
+/* 480px and above */
+@media screen and (min-width: 480px) {
+  #card, #list, h5 {
+    font-size: 17px;
+  }
+}
+
+/* 767px and above */
+@media screen and (min-width: 767px) {
+  #card, #list, h5 {
+    font-size: 22px;
+  }
+}
+
+/* 979px and above */
+@media screen and (min-width: 979px) {
+  #card {
+    font-size: 27px;
+  }
+}
+
+/* 979px and above */
+@media screen and (min-width: 979px) {
+  #list {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=HomePage.css.map */

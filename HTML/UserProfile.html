@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="icon" href="../Public/images/music.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.css"
+        integrity="sha512-6g9IGCc67eh+xK03Z8ILcnKLbJnKBW+qpEdoUVD/4hBa2Ghiq5dQgeNOGWJfGoe9tdCRM4GpJMnsRXa2FDJp9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/JavaScript/UserProfile.js"></script>
+    <script src="/JavaScript/common.js"></script>
+    <script src="/JavaScript/HomePage.js"></script>
+</head>
+
+<body class="min-vh-100">
+
+    <!-- start of the header and navbar -->
+    <header class="header">
+        <div id="nav-placeholder">
+        </div>
+    </header>
+    <!-- end of the header and navbar-->
+
+    <div id="userProfileContainer">
+        <div class="row d-flex justify-content-center" id="userProfile">
+            <div class="col-md-10 mt-3 mb-3 pt-5">
+                <div class="row z-depth-3">
+
+                    <div class="col-sm-3 bg-info rounded-left">
+                        <div class="card-block text-center text-white">
+
+                            <img class="img-fluid mt-2 col-sm-3" width="250" height="250" id="userAvatar"
+                                alt="User Avatar Image">
+                            <input type="file" id="userAvatarInput" hidden />
+                            <label class="mt-3 col-sm-6 btn-sm btn-dark" for="userAvatarInput">Edit Avatar</label>
+
+                            <h2 class="font-weight-bold mt-2" id="userNameId"></h2>
+                            <!-- <p>Trainee Software Engineer</p> -->
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-9 bg-light rounded-right">
+                        <h3 class="mt-3 text-center">User Profile</h3>
+                        <hr class="badge-primary mt-0 w-25">
+                        <div class="row">
+                            <div class="col sm-6 text-center">
+                                <p class="font-weight-bold">Email: </p>
+                                <h6 class="text-muted" id="userEmailId"></h6>
+                            </div>
+                            <div class="col sm-6 text-center">
+                                <p class="font-weight-bold">Phone: </p>
+                                <h6 class="text-muted" id="userPhoneId"></h6>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col sm-6 mt-5 text-center" id="playlistButton">
+                                <button class="btn btn-dark">My Playlist</button>
+                            </div>
+
+                            <div class="col sm-6 mt-5 text-center" id="updatePasswordButton">
+                                <button class="btn btn-dark">Update Password</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- password update container start -->
+    <div id="userPasswordUpdate">
+        <div class="row d-flex justify-content-center" id="passwordUpdateForm">
+            <div class="col-md-8 mt-2 pt-5">
+                <div class="row z-depth-3">
+
+                    <!-- <div class="card card-outline-secondary"> -->
+                    <div class="card-header col-sm-8">
+                        <h3 class="mb-0 text-primary">Change Password</h3>
+                    </div>
+                    <div class="card-body col-sm-8">
+                        <form class="form" role="form" autocomplete="off">
+                            <div class="form-group text-info">
+                                <label for="inputPasswordOld">Current Password</label>
+                                <input type="password" class="form-control" id="inputPasswordOld" required="">
+                            </div>
+                            <div class="form-group text-info">
+                                <label for="inputPasswordNew">New Password</label>
+                                <input type="password" class="form-control" id="inputPasswordNew" required="">
+                                <span class="form-text small text-white">
+                                    The password must <em>not</em> contain spaces.
+                                </span>
+                            </div>
+                            <div class="form-group text-info">
+                                <label for="inputPasswordNewVerify">Verify Password</label>
+                                <input type="password" class="form-control" id="inputPasswordNewVerify" required="">
+                                <span class="form-text small text-white">
+                                    To confirm, type the new password again.
+                                </span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success btn-lg float-right"
+                                    id="updatePwdButtonId">Save</button>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- password update container end -->
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+
+    <!-- footer start -->
+    <footer style="position: sticky; top: 100%;">
+        <div class="mt-3" id="footer-placeholder">
+        </div>
+    </footer>
+    <!-- footer end -->
+
+</body>
+
+</html>
